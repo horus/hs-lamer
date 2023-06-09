@@ -1,0 +1,13 @@
+(\f.\x.f x) f x
+(λx.x) λy.x λx.y x
+\x.x \x.(\x.x) x
+(λx.y z λz.y x z) x y z
+\f. (\x. f (x x)) (\x. f (x x))
+λx . λy . x
+\x . \y . y
+λn.λf.λx.n (λg.λh.h (g f)) (λu.x) (λu.u)
+\n.\f.\x.f (n f x)
+λx. λy. λz. ((xz) (yz))
+x x
+(x)
+this
